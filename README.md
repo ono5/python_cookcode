@@ -6,3 +6,12 @@ python code のサンプル集
   - logging のサンプルコード
 ・test
   - selenium のサンプルコード
+  
+  
+#◾Wiki
+```text
+Gherkin
+- pycharm にインストール
+
+  
+```
