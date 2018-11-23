@@ -2,6 +2,7 @@
 python code のサンプル集
 
 #◾一覧
-
+・log
+  - logging のサンプルコード
 ・test
-  - selenium
+  - selenium のサンプルコード
