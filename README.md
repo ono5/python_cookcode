@@ -12,6 +12,9 @@ python code のサンプル集
 ```text
 Gherkin
 - pycharm にインストール
+- テストシナリオの記述に使用する
 
+behave package
+pip install behave
   
 ```
