@@ -1,3 +1,4 @@
 .idea/
 .idea
 tests/selenium_code/geckodriver.log
+tests/selenium_code/.DS_Store
