@@ -25,4 +25,6 @@ Python を押下
 
  chmod +x cmd.sh 
 
+multirun(https://plugins.jetbrains.com/plugin/7248-multirun)
+
 ```
