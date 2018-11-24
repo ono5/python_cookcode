@@ -14,5 +14,5 @@ def step_impl(context):
 # Andが使用されたらstep
 @step('The title tag has content "(.*)"')
 def step_impl(context, content):
-    page = BasePage(content.driver)
+    page = BasePage(context.driver)
     assert page.title.text == content
