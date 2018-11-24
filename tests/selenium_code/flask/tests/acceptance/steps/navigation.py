@@ -2,8 +2,8 @@ from behave import *
 from selenium import webdriver
 
 #  matherの正規表現をサポートする
-from tests.selenium_code.flask.tests.page_model.blog_page import BlogPage
-from tests.selenium_code.flask.tests.page_model.home_page import HomePage
+from tests.selenium_code.flask.tests.acceptance.page_model.blog_page import BlogPage
+from tests.selenium_code.flask.tests.acceptance.page_model.home_page import HomePage
 
 use_step_matcher('re')
 

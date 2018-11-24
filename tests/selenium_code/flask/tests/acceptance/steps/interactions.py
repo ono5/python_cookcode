@@ -1,6 +1,6 @@
 from behave import *
 
-from tests.selenium_code.flask.tests.page_model.base_page import BasePage
+from tests.selenium_code.flask.tests.acceptance.page_model.base_page import BasePage
 
 use_step_matcher('re')
 
@@ -16,6 +16,7 @@ def step_impl(context, link_text):
         matching_links[0].click()
     else:
         raise RuntimeError()
+
 
 @when('id (.*) 属性リンクをクリックする')
 def step_impl(context, link_id):

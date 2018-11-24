@@ -1,5 +1,5 @@
 from tests.selenium_code.flask.tests.acceptance.locators.blog_page import BlogPageLocators
-from tests.selenium_code.flask.tests.page_model.base_page import BasePage
+from tests.selenium_code.flask.tests.acceptance.page_model.base_page import BasePage
 
 
 class BlogPage(BasePage):
