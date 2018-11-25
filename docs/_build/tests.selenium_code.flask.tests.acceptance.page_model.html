@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>tests.selenium_code.flask.tests.acceptance.page_model package &mdash; Python_Cookbook 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Python_Cookbook
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">tests.selenium_code.flask.tests.acceptance.page_model package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.base_page">tests.selenium_code.flask.tests.acceptance.page_model.base_page module</a></li>
+<li><a class="reference internal" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.blog_page">tests.selenium_code.flask.tests.acceptance.page_model.blog_page module</a></li>
+<li><a class="reference internal" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.home_page">tests.selenium_code.flask.tests.acceptance.page_model.home_page module</a></li>
+<li><a class="reference internal" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.new_post_page">tests.selenium_code.flask.tests.acceptance.page_model.new_post_page module</a></li>
+<li><a class="reference internal" href="#module-tests.selenium_code.flask.tests.acceptance.page_model">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Python_Cookbook</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>tests.selenium_code.flask.tests.acceptance.page_model package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/tests.selenium_code.flask.tests.acceptance.page_model.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tests-selenium-code-flask-tests-acceptance-page-model-package">
+<h1>tests.selenium_code.flask.tests.acceptance.page_model package<a class="headerlink" href="#tests-selenium-code-flask-tests-acceptance-page-model-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-tests.selenium_code.flask.tests.acceptance.page_model.base_page">
+<span id="tests-selenium-code-flask-tests-acceptance-page-model-base-page-module"></span><h2>tests.selenium_code.flask.tests.acceptance.page_model.base_page module<a class="headerlink" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.base_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage">
+<em class="property">class </em><code class="descclassname">tests.selenium_code.flask.tests.acceptance.page_model.base_page.</code><code class="descname">BasePage</code><span class="sig-paren">(</span><em>driver</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/tests/selenium_code/flask/tests/acceptance/page_model/base_page.html#BasePage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.url">
+<code class="descname">url</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.title">
+<code class="descname">title</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.navigation">
+<code class="descname">navigation</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage.navigation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-tests.selenium_code.flask.tests.acceptance.page_model.blog_page">
+<span id="tests-selenium-code-flask-tests-acceptance-page-model-blog-page-module"></span><h2>tests.selenium_code.flask.tests.acceptance.page_model.blog_page module<a class="headerlink" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.blog_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage">
+<em class="property">class </em><code class="descclassname">tests.selenium_code.flask.tests.acceptance.page_model.blog_page.</code><code class="descname">BlogPage</code><span class="sig-paren">(</span><em>driver</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/tests/selenium_code/flask/tests/acceptance/page_model/blog_page.html#BlogPage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage" title="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage"><code class="xref py py-class docutils literal notranslate"><span class="pre">tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage</span></code></a></p>
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.url">
+<code class="descname">url</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.posts_section">
+<code class="descname">posts_section</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.posts_section" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.posts">
+<code class="descname">posts</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.posts" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.add_post_link">
+<code class="descname">add_post_link</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.blog_page.BlogPage.add_post_link" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-tests.selenium_code.flask.tests.acceptance.page_model.home_page">
+<span id="tests-selenium-code-flask-tests-acceptance-page-model-home-page-module"></span><h2>tests.selenium_code.flask.tests.acceptance.page_model.home_page module<a class="headerlink" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.home_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage">
+<em class="property">class </em><code class="descclassname">tests.selenium_code.flask.tests.acceptance.page_model.home_page.</code><code class="descname">HomePage</code><span class="sig-paren">(</span><em>driver</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/tests/selenium_code/flask/tests/acceptance/page_model/home_page.html#HomePage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage" title="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage"><code class="xref py py-class docutils literal notranslate"><span class="pre">tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage</span></code></a></p>
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage.url">
+<code class="descname">url</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage.blog_link">
+<code class="descname">blog_link</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.home_page.HomePage.blog_link" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-tests.selenium_code.flask.tests.acceptance.page_model.new_post_page">
+<span id="tests-selenium-code-flask-tests-acceptance-page-model-new-post-page-module"></span><h2>tests.selenium_code.flask.tests.acceptance.page_model.new_post_page module<a class="headerlink" href="#module-tests.selenium_code.flask.tests.acceptance.page_model.new_post_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage">
+<em class="property">class </em><code class="descclassname">tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.</code><code class="descname">NewPostPage</code><span class="sig-paren">(</span><em>driver</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/tests/selenium_code/flask/tests/acceptance/page_model/new_post_page.html#NewPostPage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage" title="tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage"><code class="xref py py-class docutils literal notranslate"><span class="pre">tests.selenium_code.flask.tests.acceptance.page_model.base_page.BasePage</span></code></a></p>
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.url">
+<code class="descname">url</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.form">
+<code class="descname">form</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.form" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.submit_button">
+<code class="descname">submit_button</code><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.submit_button" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.form_field">
+<code class="descname">form_field</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/tests/selenium_code/flask/tests/acceptance/page_model/new_post_page.html#NewPostPage.form_field"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#tests.selenium_code.flask.tests.acceptance.page_model.new_post_page.NewPostPage.form_field" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-tests.selenium_code.flask.tests.acceptance.page_model">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-tests.selenium_code.flask.tests.acceptance.page_model" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, HIROKI
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

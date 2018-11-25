@@ -7,6 +7,11 @@ posts = []
 
 @app.route('/')
 def homepage():
+    """
+    HomePage
+
+    :return:
+    """
     return render_template('home.html')
 
 
