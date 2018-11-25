@@ -16,9 +16,3 @@ def step_impl(context, link_text):
         matching_links[0].click()
     else:
         raise RuntimeError()
-
-
-@when('id (.*) 属性リンクをクリックする')
-def step_impl(context, link_id):
-    link = context.driver.find_element_by_id(link_id)
-    link.click()

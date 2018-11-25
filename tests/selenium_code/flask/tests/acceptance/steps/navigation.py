@@ -24,12 +24,6 @@ def step_impl(context):
     context.driver.get(page.url)
 
 
-@given('ホームページを訪れる')
-def step_impl(context):
-    context.driver = webdriver.Chrome(webdriver_path)
-    context.driver.get('http://127.0.0.1:5000')
-
-
 @then('I am on the blog page')
 def step_impl(context):
     expected_url = BlogPage(context.driver).url
@@ -39,10 +33,4 @@ def step_impl(context):
 @then('I am on the homepage')
 def step_impl(context):
     expected_url = HomePage(context.driver).url
-    assert context.driver.current_url == expected_url
-
-
-@then('ブログページへ画面遷移する')
-def setp_impl(context):
-    expected_url = 'http://localhost:5000/blog'
     assert context.driver.current_url == expected_url
