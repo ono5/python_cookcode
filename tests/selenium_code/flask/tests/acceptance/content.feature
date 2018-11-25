@@ -16,7 +16,7 @@ Feature: Test that pages have correct content
     Then I can see there is a posts section on the page
 
   Scenario: User can create new posets
-    Given I am on the new post
+    Given I am on the new post page
     When I enter "Test Post" in the "title" field
     And I enter "Test Content" in the "content" field
     And I press the submit button
