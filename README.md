@@ -95,4 +95,7 @@ sphinx-apidoc -f  -o ./docs .
 # rst ファイルから html ファイルを作成(rstファイル格納場所, html ファイル格納先)
 sphinx-build -b html ./docs ./docs/_build
 
+# Degital Ocean
+Django Tutorial(https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-centos-7)
+
 ```
