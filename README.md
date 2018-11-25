@@ -46,9 +46,32 @@ page_model(ページの基本設定, pageのオブジェクトを作る)
  - home_page.py
    - base_page.py を継承
    - 別のページをテスト
-   
-   
- 
- 
+
+◾Sphinx 
+python3.6 -m venv venv
+source venv/bin/activate
+(venv) $ pip install sphinx
+# プロジェクトを始める(python-cookbook => document root)
+sphinx-quickstart -q -p Python-Cookbook -a HIROKI -v 1.0 python-cookbook
+
+make html
+
+# Mark down
+pip install recommonmark
+conf.py
+source_suffix = ['.rst', '.md']
+# 拡張子 .md パーサー(構文解析器)に recommonmark を指定する
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser'
+}
+
+# コードハイライト機能
+Pygments(http://pygments.org/docs/lexers/)
+pip install Pygments
+
+# docstring の取り込み
+conf.py
+sys.path.insert(0, 'path.pyが置いてあるディレクトリのパス')
+extensions = ['sphinx.ext.autodoc',]
 
 ```
