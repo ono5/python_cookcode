@@ -1,0 +1,7 @@
+pravas_auto_test
+================
+
+.. toctree::
+   :maxdepth: 4
+
+   tests

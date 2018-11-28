@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pravas.locators package &mdash; prevas 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="pravas.page_model package" href="pravas.page_model.html" />
+    <link rel="prev" title="pravas.common package" href="pravas.common.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> prevas
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="design_documents.html"><u>はじめに</u></a></li>
+<li class="toctree-l1"><a class="reference internal" href="design_documents.html#u-1-u"><u>1. テスト自動化</u></a></li>
+<li class="toctree-l1"><a class="reference internal" href="design_documents.html#u-2-u"><u>2. パッケージ構成</u></a></li>
+<li class="toctree-l1"><a class="reference internal" href="design_documents.html#u-3-u"><u>3. 作業結果</u></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">pravas_auto_test</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="pravas.html">pravas package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="pravas.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pravas.common.html">pravas.common package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pravas.locators package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pravas.page_model.html">pravas.page_model package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pravas.scenario.html">pravas.scenario package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pravas.html#module-pravas">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">prevas</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">pravas_auto_test</a> &raquo;</li>
+        
+          <li><a href="pravas.html">pravas package</a> &raquo;</li>
+        
+      <li>pravas.locators package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/pravas.locators.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pravas-locators-package">
+<h1>pravas.locators package<a class="headerlink" href="#pravas-locators-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-pravas.locators.base_page">
+<span id="pravas-locators-base-page-module"></span><h2>pravas.locators.base_page module<a class="headerlink" href="#module-pravas.locators.base_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pravas.locators.base_page.basicPageLocators">
+<em class="property">class </em><code class="descclassname">pravas.locators.base_page.</code><code class="descname">basicPageLocators</code><a class="reference internal" href="_modules/pravas/locators/base_page.html#basicPageLocators"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pravas.locators.base_page.basicPageLocators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="pravas.locators.base_page.basicPageLocators.BODY">
+<code class="descname">BODY</code><em class="property"> = (&lt;sphinx.ext.autodoc.importer._MockObject object&gt;, 'body')</em><a class="headerlink" href="#pravas.locators.base_page.basicPageLocators.BODY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pravas.locators.login_page">
+<span id="pravas-locators-login-page-module"></span><h2>pravas.locators.login_page module<a class="headerlink" href="#module-pravas.locators.login_page" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="pravas.locators.login_page.LoginPageLocators">
+<em class="property">class </em><code class="descclassname">pravas.locators.login_page.</code><code class="descname">LoginPageLocators</code><a class="reference internal" href="_modules/pravas/locators/login_page.html#LoginPageLocators"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pravas.locators.login_page.LoginPageLocators" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="pravas.locators.login_page.LoginPageLocators.LOGIN_ID">
+<code class="descname">LOGIN_ID</code><em class="property"> = (&lt;sphinx.ext.autodoc.importer._MockObject object&gt;, 'id')</em><a class="headerlink" href="#pravas.locators.login_page.LoginPageLocators.LOGIN_ID" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pravas.locators.login_page.LoginPageLocators.LOGIN_PASSWORD">
+<code class="descname">LOGIN_PASSWORD</code><em class="property"> = (&lt;sphinx.ext.autodoc.importer._MockObject object&gt;, 'password')</em><a class="headerlink" href="#pravas.locators.login_page.LoginPageLocators.LOGIN_PASSWORD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pravas.locators.login_page.LoginPageLocators.LOGIN_BUTTON">
+<code class="descname">LOGIN_BUTTON</code><em class="property"> = (&lt;sphinx.ext.autodoc.importer._MockObject object&gt;, '//input[&#64;value=&quot;ログイン&quot;]')</em><a class="headerlink" href="#pravas.locators.login_page.LoginPageLocators.LOGIN_BUTTON" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pravas.locators.login_page.LoginPageLocators.ERROR_MESSAGE">
+<code class="descname">ERROR_MESSAGE</code><em class="property"> = (&lt;sphinx.ext.autodoc.importer._MockObject object&gt;, 'alert-danger')</em><a class="headerlink" href="#pravas.locators.login_page.LoginPageLocators.ERROR_MESSAGE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-pravas.locators">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-pravas.locators" title="Permalink to this headline">¶</a></h2>
+<p>locators パッケージ</p>
+<p>画面のHTML要素をクラスとして定義する。
+ここで定義したクラスは、page_model パッケージで要素の取得をする際に使用する。</p>
+<p>1. ページの名前に合わせて、XX_page.py ファイルを作成
+例) test_login_page.py</p>
+<ol class="arabic simple" start="2">
+<li>XXLocatorsという名前のクラスを作成</li>
+</ol>
+<p>例) ログイン画面クラス</p>
+<dl class="docutils">
+<dt>class LoginPageLocators(object):</dt>
+<dd>LOGIN_ID = (By.NAME, ‘id’)
+LOGIN_PASSWORD = (By.NAME, ‘password’)
+LOGIN_BUTTON = (By.XPATH, ‘//input[&#64;value=”ログイン”]’)</dd>
+</dl>
+<p>補足)
+このクラスは、画面のHTML要素(部品)を表す。
+既に作成済みのログイン画面から以下の要素を抽出し、辞書型で定義している。</p>
+<ul class="simple">
+<li>LOGIN_ID</li>
+</ul>
+<p>&lt;input class=”form-control” required=”” name=”id” type=”text” value=”“&gt;</p>
+<p>&lt;input class=”form-control” required=”” name=”password” type=”password” value=”“&gt;</p>
+<p>&lt;input class=”btn btn-info btn-block” formaction=”<a class="reference external" href="http://192.168.80.168/login">http://192.168.80.168/login</a>” type=”submit” value=”ログイン”&gt;</p>
+<p>このようにテストコードからHTML部品を分離しておけば、画面修正時にHTMLのidやnameが
+変わったとしても、このパッケージ内のファイルを修正すれば、テストコードの修正は不要となる。</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pravas.page_model.html" class="btn btn-neutral float-right" title="pravas.page_model package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pravas.common.html" class="btn btn-neutral" title="pravas.common package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, exeo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
