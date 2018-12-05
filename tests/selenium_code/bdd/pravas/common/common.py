@@ -5,12 +5,6 @@
 # 設定パラメータ
 from selenium.webdriver.common.keys import Keys
 
-IP_ADDRESS = '192.168.80.168'
-LOGIN_ID = ''
-LOGIN_PASSWORD = ''
-LOGIN_PATH = 'C:/Users/exeo/pravas_auto_test/screen_shot'
-
-
 def get_screen_shot(description, page):
     """
     スクリーンショットを取得
