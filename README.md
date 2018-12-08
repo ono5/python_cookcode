@@ -98,4 +98,7 @@ sphinx-build -b html ./docs ./docs/_build
 # Degital Ocean
 Django Tutorial(https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-centos-7)
 
+# pytest code sample
+https://pragprog.com/titles/bopytest/source_code
+
 ```
