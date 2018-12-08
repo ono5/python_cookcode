@@ -1,7 +1,8 @@
 from tests.BDD.tests.acceptance.locators.home_page import HomePageLocators
+from tests.BDD.tests.acceptance.page_model.base_page import BasePage
 
 
-class HomePage(object):
+class HomePage(BasePage):
 
     @property
     def url(self):
