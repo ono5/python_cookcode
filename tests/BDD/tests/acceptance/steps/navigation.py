@@ -14,7 +14,6 @@ def step_impl(context):
     page = HomePage(context.driver)
     context.driver.get(page.url)
 
-
 @given('I am on the blog page')
 def step_impl(context):
     context.driver = webdriver.Chrome()

@@ -1,9 +1,12 @@
 """Test the Task data type."""
 
 from collections import namedtuple
+import pytest, time
+
 
 Task = namedtuple('Task', ['summary', 'owner', 'done', 'id'])
 Task.__new__.__defaults__ = (None, None, False, None)
+
 
 def test_asdict():
     """_asdict() should return a dictionary."""
@@ -15,8 +18,9 @@ def test_asdict():
                 'id': 21}
     assert t_dict == expected
 
-
+@pytest.mark.do_test
 def test_replace():
+    time.sleep(0.1)
     """replace() should change passed in fields."""
     t_before = Task('finish book', 'brian', False)
     t_after = t_before._replace(id=10, done=True)

@@ -1,4 +1,10 @@
 [
+  "tasks/test_five.py::test_default",
+  "tasks/test_five.py::test_member_access",
+  "tasks/test_five.py::test_asdict",
+  "tasks/test_five.py::test_replace",
+  "tasks/test_four.py::test_asdict",
+  "tasks/test_four.py::test_replace",
   "tasks/test_three.py::test_defaults",
   "tasks/test_three.py::test_member_access"
 ]
