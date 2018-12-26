@@ -4,3 +4,4 @@ tests/selenium_code/geckodriver.log
 tests/selenium_code/.DS_Store
 __pycache__
 venv/
+data/
