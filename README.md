@@ -102,3 +102,10 @@ Django Tutorial(https://www.digitalocean.com/community/tutorials/how-to-set-up-d
 https://pragprog.com/titles/bopytest/source_code
 
 ```
+
+pytest-coc pytest-xdist
+
+```
+pytest test_calculation.py --cov=calculation --cov-report term-missing
+Stmts -> コードの行数
+```
